@@ -1,0 +1,479 @@
+@media (max-width:1420px){
+    .text{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1285px){
+    .text{
+        font-size: 21px;
+    }
+}
+
+
+@media (max-width:1129px){
+    .text{
+        font-size: 20px;
+    }
+} 
+
+@media (max-width:1015px){
+    .text{
+        font-size: 19px;
+    }
+    .image>img{
+        width: 44%;
+        height: 84%;
+        margin-top: 9%;
+    }
+} 
+
+@media (max-width:893px){
+    .text{
+        font-size: 18px;
+        overflow: scroll;
+
+    }
+    .image>img{
+        width: 50%;
+    }
+
+} 
+
+
+@media (max-width:798px){
+    .text{
+        font-size: 17px;
+    }
+    .image>img{
+        width: 50%;
+    }
+    .container h1{
+        font-size: 40px;
+    }
+    span{
+        font-size: 26px;
+    }
+
+    .box button{
+        height: 27px;
+        width: 200px;
+        margin-top: 13%;
+        font-size: 20px;
+    }
+    .progress-bar{
+        background: white;
+        width: 573px;
+        height: 10px;
+        border-radius: 5px;
+        margin-left: 2%;
+    }
+} 
+
+@media (max-width:715px){
+    .text{
+        font-size: 16px;
+    }
+    .image>img{
+        width: 50%;
+    }
+    
+} 
+
+@media (max-width:778px) {
+    .progress-bar{
+        background: white;
+        width: 550px;
+        height: 10px;
+        border-radius: 5px;
+        margin-left: 2%;
+    }
+}
+
+@media(max-width:768px){
+    .progress-bar{
+        width: 700%;
+        margin-left: -250%;
+    }
+    .textcontainer{
+        height: 35%;
+    }
+}
+
+
+@media (max-width:755px){
+    .text{
+        font-size: 16px;
+    }
+    .image>img{
+        width: 50%;
+    }
+} 
+
+
+@media (max-width:724px){
+    .text{
+        font-size: 16px;
+    }
+    .image>img{
+        width: 50%;
+        
+    }
+
+    
+    .progress-bar{
+        background: white;
+        width: 450px;
+        height: 10px;
+        border-radius: 5px;
+        margin-left: 13%;
+    }
+} 
+
+
+@media (max-width:645px){
+    .text{
+        font-size: 15px;
+    }
+    .container h1{
+        font-size: 30px;
+    }
+
+    .container p{
+        font-size: 22px;
+    }
+    .image>img{
+        width: 50%;
+        height: 75%;
+        margin-top: 12%;
+    }
+
+
+    .progress-bar{
+        background: white;
+        width: 440px;
+        height: 10px;
+        border-radius: 5px;
+        margin-left: 1%;
+    }
+
+
+} 
+
+@media(max-width:647px) {
+    .progress-bar{
+        background: white;
+        width: 440px;
+        height: 10px;
+        border-radius: 5px;
+        margin-left: 1%;
+    }
+}
+
+
+@media (max-width:637px) {
+    .progress-bar{
+        width: 375px;
+    }
+    .textcontainer{
+        height: 35%;
+    }
+}
+
+
+
+@media (max-width:574px){
+    .text{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    span{
+        font-size: 22px;
+    }
+    .image>img{
+        width: 50%;
+    }
+    
+    .progress-bar{
+        background: white;
+        width: 370px;
+        height: 10px;
+        border-radius: 5px;
+        margin-left: 10%;
+    }
+
+} 
+
+
+
+@media (max-width:537px){
+    .text{
+        font-size: 13px;
+    }
+    .image>img{
+        width: 50%;
+    }
+    .textcontainer{
+        height:37%;
+    }
+} 
+
+
+@media (max-width:512px){
+    .text{
+        font-size: 13px;
+    }
+    .textcontainer{
+        height: 26%;
+    }
+    .image>img{
+        width: 50%;
+    }
+
+} 
+
+@media(max-width:542px){
+    .progress-bar{
+        background: white;
+        width: 300px;
+        height: 10px;
+        border-radius: 5px;
+    }
+    .textcontainer{
+        height: 349px;
+    }
+}
+
+@media (max-width:498px){
+    .text{
+        font-size: 12px;
+    }
+    .textcontainer{
+        height: 35%;
+    }
+    .container span{
+        font-size: 18px;
+    }
+
+    .container h1{
+        font-size: 29px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .image>img{
+        width: 50%;
+    }
+
+} 
+
+
+
+@media (max-width:461px){
+    .text{
+        font-size: 12px;
+    }
+    .textcontainer{
+        height: 35%;
+    }
+    .image>img{
+        width: 50%;
+    }
+
+} 
+
+@media (max-width:445px){
+    .text{
+        font-size: 11px;
+    }
+    .textcontainer{
+        height: 35%;
+    }
+    .image>img{
+        width: 50%;
+    }
+    .progress-bar{
+        width: 268px;
+    }
+} 
+
+@media(max-width:426px){
+    .progress-bar{
+        margin-left: -2%;
+    }
+}
+
+@media(max-width:376px){
+    .progress-bar{
+        margin-left: -174%;
+    }
+}
+
+
+
+@media (max-width:409px){
+    .text{
+        font-size: 15px;
+    }
+    .textcontainer{
+        height: 19%;
+    }
+    .image>img{
+        width: 50%;
+    }
+    .why{
+        margin-left: 2%;
+    }
+    
+    .container span{
+        font-size: 16px;
+    }
+
+
+
+    .container h1{
+        font-size: 24px;
+    }
+    .container p{
+        font-size: 16px;
+    }
+} 
+
+@media(max-width:408px){
+    .textcontainer{
+        height: 20rem;
+
+    }
+}
+
+@media(max-width:397px){
+    .progress-bar{
+        width: 500%;
+    }
+    .container{
+        margin-left: 10%;
+    }
+}
+
+
+
+@media (max-width:354px){
+    /* .text{
+        font-size: 12px;
+    } */
+    .textcontainer{
+        height: 30%;
+    }
+    .image>img{
+        width: 50%;
+        height: 60%;
+        margin-top: 30%;
+    }
+
+} 
+
+
+@media (max-width:346px) {
+    .container span{
+        font-size: 13px;
+    }
+    .container h1{
+        font-size: 18px;
+        margin-top: -7%;
+    }
+    .container p{
+        font-size: 12px;
+        word-spacing: 20%;
+    }
+
+}
+
+@media (max-width:378px){
+    .progress-bar {
+        width: 430%;
+    }
+} 
+
+
+@media (max-width:354px){
+  .textcontainer{
+    height: 20rem;
+  }
+  .progress-bar{
+    width: 400%;
+  }
+} 
+
+
+@media(max-width:310px){
+    .progress-bar{
+        width: 350%;
+    }
+}
+
+
+@media(max-width:276px){
+    .progress-bar{
+        width: 300%;
+    }
+}
+
+
+
+@media (max-width:295px){
+    .image>img{
+        width: 50%;
+    }
+}  
+
+
+@media (max-width:594px){
+    form input{
+        font-size: 100%;
+        
+    }
+    .textcontainer1 label{
+        font-size: 170%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 400px) {
+    .textcontainer {
+      flex-direction: column;
+    }
+  
+    .textcontainer div{
+      width: 100%;
+    }
+} */
+  
+
+
+
+
