@@ -11,7 +11,7 @@
 
 body{
     font-family: montserrat;
-    background-image: url("/Image/home1.jpg");    
+    background-image: url(/Image/home1.jpg);    
     background-size: cover;
     background-position: center; 
 }
