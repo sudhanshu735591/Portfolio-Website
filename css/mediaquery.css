@@ -121,3 +121,31 @@
         width: 206px;
     }
 }
+
+
+
+
+@media only screen and (max-width: 412px) {
+    .center button {
+        width: 13rem;
+        height: 31px;
+        font-size: 2vh;
+    }
+    .progress-bar {
+        background: white;
+        width: 250px;
+        height: 14px;
+        border-radius: 11px;
+    }
+    .progress-bar div {
+        height: 14px;
+        border-radius: 10px;
+    }
+
+    label {
+        font-size: 3vh;
+    }
+    .textcontainer3{
+        height: 319px;
+    }
+}
