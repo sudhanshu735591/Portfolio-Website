@@ -1,479 +1,123 @@
-@media (max-width:1420px){
-    .text{
+@media only screen and (max-width: 1025px) {
+    .textcontainer1{
+        width: 72%;
+    }
+    .progress-bar {
+        background: white;
+        width: 684px;
+        height: 21px;
+        border-radius: 11px;
+    }
+}
+
+
+@media only screen and (max-width: 769px) {
+    .box{
+        position: relative;
+        top: 10px;
+    }
+    .progress-bar {
+        background: white;
+        width: 519px;
+        height: 21px;
+        border-radius: 11px;
+    }
+    .textcontainer1 {
+        width: 72%;
+        height: 390px;
+    }
+    .grid-container {
         font-size: 22px;
     }
-}
-
-@media (max-width:1285px){
-    .text{
-        font-size: 21px;
+    .textcontainer3 .submit {
+        width: 50%;
     }
 }
-
-
-@media (max-width:1129px){
-    .text{
-        font-size: 20px;
-    }
-} 
-
-@media (max-width:1015px){
-    .text{
-        font-size: 19px;
-    }
-    .image>img{
-        width: 44%;
-        height: 84%;
-        margin-top: 9%;
-    }
-} 
-
-@media (max-width:893px){
-    .text{
-        font-size: 18px;
-        overflow: scroll;
-
-    }
-    .image>img{
-        width: 50%;
-    }
-
-} 
-
-
-@media (max-width:798px){
-    .text{
-        font-size: 17px;
-    }
-    .image>img{
-        width: 50%;
-    }
-    .container h1{
-        font-size: 40px;
-    }
-    span{
-        font-size: 26px;
-    }
-
-    .box button{
-        height: 27px;
-        width: 200px;
-        margin-top: 13%;
-        font-size: 20px;
-    }
-    .progress-bar{
-        background: white;
-        width: 573px;
-        height: 10px;
-        border-radius: 5px;
-        margin-left: 2%;
-    }
-} 
-
-@media (max-width:715px){
-    .text{
-        font-size: 16px;
-    }
-    .image>img{
-        width: 50%;
-    }
-    
-} 
-
-@media (max-width:778px) {
-    .progress-bar{
-        background: white;
-        width: 550px;
-        height: 10px;
-        border-radius: 5px;
-        margin-left: 2%;
-    }
-}
-
-@media(max-width:768px){
-    .progress-bar{
-        width: 700%;
-        margin-left: -250%;
-    }
-    .textcontainer{
-        height: 35%;
-    }
-}
-
-
-@media (max-width:755px){
-    .text{
-        font-size: 16px;
-    }
-    .image>img{
-        width: 50%;
-    }
-} 
-
-
-@media (max-width:724px){
-    .text{
-        font-size: 16px;
-    }
-    .image>img{
-        width: 50%;
-        
-    }
-
-    
-    .progress-bar{
-        background: white;
-        width: 450px;
-        height: 10px;
-        border-radius: 5px;
-        margin-left: 13%;
-    }
-} 
-
-
-@media (max-width:645px){
-    .text{
-        font-size: 15px;
+@media only screen and (max-width: 426px) {
+    .container span {
+      font-size: 17px;
     }
     .container h1{
         font-size: 30px;
-    }
-
-    .container p{
-        font-size: 22px;
-    }
-    .image>img{
-        width: 50%;
-        height: 75%;
-        margin-top: 12%;
-    }
-
-
-    .progress-bar{
-        background: white;
-        width: 440px;
-        height: 10px;
-        border-radius: 5px;
-        margin-left: 1%;
-    }
-
-
-} 
-
-@media(max-width:647px) {
-    .progress-bar{
-        background: white;
-        width: 440px;
-        height: 10px;
-        border-radius: 5px;
-        margin-left: 1%;
-    }
-}
-
-
-@media (max-width:637px) {
-    .progress-bar{
-        width: 375px;
-    }
-    .textcontainer{
-        height: 35%;
-    }
-}
-
-
-
-@media (max-width:574px){
-    .text{
-        font-size: 14px;
-        margin-top: 12px;
-    }
-    span{
-        font-size: 22px;
-    }
-    .image>img{
-        width: 50%;
-    }
-    
-    .progress-bar{
-        background: white;
-        width: 370px;
-        height: 10px;
-        border-radius: 5px;
-        margin-left: 10%;
-    }
-
-} 
-
-
-
-@media (max-width:537px){
-    .text{
-        font-size: 13px;
-    }
-    .image>img{
-        width: 50%;
-    }
-    .textcontainer{
-        height:37%;
-    }
-} 
-
-
-@media (max-width:512px){
-    .text{
-        font-size: 13px;
-    }
-    .textcontainer{
-        height: 26%;
-    }
-    .image>img{
-        width: 50%;
-    }
-
-} 
-
-@media(max-width:542px){
-    .progress-bar{
-        background: white;
-        width: 300px;
-        height: 10px;
-        border-radius: 5px;
-    }
-    .textcontainer{
-        height: 349px;
-    }
-}
-
-@media (max-width:498px){
-    .text{
-        font-size: 12px;
-    }
-    .textcontainer{
-        height: 35%;
-    }
-    .container span{
-        font-size: 18px;
-    }
-
-    .container h1{
-        font-size: 29px;
+        margin-top: -24px;
     }
     .container p{
-        font-size: 20px;
+        font-size: 17px;
+        margin-top: -24px;
     }
-    .image>img{
-        width: 50%;
+    .box{
+        position: relative;
+        top: 18px;
     }
-
-} 
-
-
-
-@media (max-width:461px){
-    .text{
-        font-size: 12px;
+    .center button {
+        width: 11rem;
+        height: 31px;
+        font-size: 4vh;
     }
-    .textcontainer{
-        height: 35%;
-    }
-    .image>img{
-        width: 50%;
-    }
-
-} 
-
-@media (max-width:445px){
-    .text{
-        font-size: 11px;
-    }
-    .textcontainer{
-        height: 35%;
-    }
-    .image>img{
-        width: 50%;
-    }
-    .progress-bar{
-        width: 268px;
-    }
-} 
-
-@media(max-width:426px){
-    .progress-bar{
-        margin-left: -2%;
-    }
-}
-
-@media(max-width:376px){
-    .progress-bar{
-        margin-left: -174%;
-    }
-}
-
-
-
-@media (max-width:409px){
-    .text{
-        font-size: 15px;
-    }
-    .textcontainer{
-        height: 19%;
-    }
-    .image>img{
-        width: 50%;
-    }
-    .why{
-        margin-left: 2%;
-    }
-    
-    .container span{
-        font-size: 16px;
-    }
-
-
-
-    .container h1{
-        font-size: 24px;
-    }
-    .container p{
-        font-size: 16px;
-    }
-} 
-
-@media(max-width:408px){
-    .textcontainer{
-        height: 20rem;
-
-    }
-}
-
-@media(max-width:397px){
-    .progress-bar{
-        width: 500%;
-    }
-    .container{
-        margin-left: 10%;
-    }
-}
-
-
-
-@media (max-width:354px){
-    /* .text{
-        font-size: 12px;
-    } */
-    .textcontainer{
-        height: 30%;
-    }
-    .image>img{
-        width: 50%;
-        height: 60%;
-        margin-top: 30%;
-    }
-
-} 
-
-
-@media (max-width:346px) {
-    .container span{
-        font-size: 13px;
-    }
-    .container h1{
-        font-size: 18px;
-        margin-top: -7%;
-    }
-    .container p{
-        font-size: 12px;
-        word-spacing: 20%;
-    }
-
-}
-
-@media (max-width:378px){
     .progress-bar {
-        width: 430%;
+        background: white;
+        width: 281px;
+        height: 21px;
+        border-radius: 11px;
     }
-} 
-
-
-@media (max-width:354px){
-  .textcontainer{
-    height: 20rem;
-  }
-  .progress-bar{
-    width: 400%;
-  }
-} 
-
-
-@media(max-width:310px){
-    .progress-bar{
-        width: 350%;
+    .grid-container {
+        font-size: 12px;
     }
+
+    input {
+        width: 220px;
+    }
+    
 }
 
 
-@media(max-width:276px){
-    .progress-bar{
-        width: 300%;
+@media only screen and (max-width: 376px){
+    .progress-bar {
+        background: white;
+        width: 244px;
+        height: 21px;
+        border-radius: 11px;
+    }
+    .textcontainer1 {
+        width: 72%;
+        height: 372px;
+    }
+    .grid-container {
+        font-size: 10px;
+    }
+    .textcontainer3 .submit {
+        width: 78%;
     }
 }
 
-
-
-@media (max-width:295px){
-    .image>img{
-        width: 50%;
+@media only screen and (max-width: 321px) {
+    .container span {
+        font-size: 14px;
     }
-}  
-
-
-@media (max-width:594px){
-    form input{
-        font-size: 100%;
-        
+    .container h1{
+        font-size: 23px;
+        margin-top: -30px;
     }
-    .textcontainer1 label{
-        font-size: 170%;
 
+    .container p{
+        font-size: 15px;
+        margin-top: -24px;
+    }
+
+    .box{
+        position: relative;
+        top: 23px;
+    }
+    .progress-bar {
+        background: white;
+        width: 211px;
+        height: 21px;
+        border-radius: 11px;
+    }
+    .grid-container {
+        font-size: 9px;
+    }
+    input {
+        width: 206px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media screen and (max-width: 400px) {
-    .textcontainer {
-      flex-direction: column;
-    }
-  
-    .textcontainer div{
-      width: 100%;
-    }
-} */
-  
-
-
-
-

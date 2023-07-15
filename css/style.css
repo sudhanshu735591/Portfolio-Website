@@ -22,6 +22,7 @@ nav{
     width: 100%;
     font-weight: bolder;
 }
+
 nav ul{
     float: right;
     margin-right: 20px;
@@ -60,10 +61,7 @@ nav ul li a{
 #check{
     display: none;
 }
-/* 
-.banner{
-    position: stificky;
-} */
+
 
 @media (max-width:952px){
     nav ul li a{
@@ -104,7 +102,10 @@ nav ul li a{
 .container{
     text-align: center;
     font-size: 30px;
-    position: relative;
+}
+
+.textcontainer1 .container .skills h2{
+    text-align: left;
 }
 
 .container span{
@@ -117,16 +118,15 @@ nav ul li a{
 }
 
 .box{
-    padding-top: 7%;
+    padding-top: 5%;
     position: relative;
 }
 
 
 .why{
-    margin-left: 29%;
+    text-align: center;
     color: yellow;
     text-decoration: underline;
-    line-height: 1.8;
 }
 .center {
     margin: 0;
@@ -147,46 +147,42 @@ nav ul li a{
     height: 48px;
     color: blue;
     border: 2px solid blue;
-
 }
 
 
 .textcontainer{
-    display: flex;
-    flex-direction: row;
     border: 3px solid peachpuff;
-    margin-top: 3rem;
     border-radius: 2rem;
-    text-align:left;
     box-shadow: 5px 10px 10px;
-    height: 400px;
-    padding: 2%;
-    width: 80%;
-    margin-left: 10%;
+    height: 27vw;
+    padding: 3%;
+    width:70%;
+    margin: auto;
+    margin-top: 49px;
 }
 
 
 .text{
-    font-size: 23px;
-    width: 50%; 
+    font-size: 2vw;
 }
+
 
 .thank{
     text-align: center;
 }
-.image{
-    width: 50%;
+
+
+
+.textcontainer1{
+    border: 3px solid;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 10px;
+    padding: 2%;
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
 }
 
-
-
-
-.image>img{
-    height: 100%;
-    width: 40%;
-    margin-top: 2px;
-    margin-left: 40%;
-}
 
 .skills h2{
     font-weight: 400;
@@ -199,15 +195,15 @@ nav ul li a{
 
 .progress-bar{
     background: white;
-    width: 600px;
-    height: 10px;
-    border-radius: 5px;
+    width: 943px;
+    height: 21px;
+    border-radius: 11px;
 }
 
 
 
 .progress-bar div{
-    height: 10px;
+    height: 21px;
     border-radius: 10px;
     width: 0%;
 }
@@ -285,66 +281,58 @@ nav ul li a{
     }
 } 
 
-.textcontainer1{
-    display: flex;
-    flex-direction: row;
-    border: 3px solid;
-    margin-top: 3rem;
-    border-radius: 2rem;
-    text-align:left;
-    box-shadow: 5px 10px 10px;
-    padding: 2%;
-    width: 80%;
-    margin-left: 10%;
-}
+
 
 
 .grid-container {
-    /* grid-template-columns: 100px 50px 100px;
-    grid-template-rows: 80px auto 80px; 
-    column-gap: 10px;
-    row-gap: 15px; */
+
     text-align: center;
     align-items: center;
     padding: 10%;
-    font-size: x-large;
-  }
-
-/* 
-  .grid-item {
-    padding: 20px;
     font-size: 30px;
-    text-align: center;
   }
 
-.projectimage{
-    justify-content: left;
-}
 
-.textcontainer1 label{
-    font-size: 200%;
-} */
-
-form input{
-    /* color: black; */
+input{
     border-radius: 4px;
     font-size: 160%;
     color: black;
     text-align: center;
+    align-items: center;
 }
 
-.textcontainer1 .submit{
+
+
+form{
+    text-align: center;
+}
+
+.textcontainer3 .submit{
     border: 2px solid blue;
     background-color: blue;
     color: yellowgreen;
-    width: 30%;
+    width: 25%;
     justify-content: center;
     border-radius: 20%;
     position: relative;
-    left: 40%;
+    left: 4%;
     cursor: pointer;
 }
 
+
+label{
+    font-size: 5vh;
+}
+
+.textcontainer3{
+    border: 3px solid;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 10px;
+    padding: 2%;
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+}
 
 
 
